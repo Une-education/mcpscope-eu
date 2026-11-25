@@ -1,0 +1,12 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "eu.mcpscope/observatory",
+  "description": "European MCP Observatory & Active JSON-RPC 2.0 Validator. Query qualified European MCP endpoints, latency metrics, and GDPR/sovereignty metadata.",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "transport_type": "streamable-http",
+      "url": "https://mcpscope.eu/mcp.php"
+    }
+  ]
+}
