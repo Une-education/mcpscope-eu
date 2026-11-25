@@ -1,11 +1,11 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "eu.mcpscope/observatory",
-  "description": "European MCP Observatory & Active JSON-RPC 2.0 Validator. Query qualified European MCP endpoints, latency metrics, and GDPR/sovereignty metadata.",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
+  "name": "io.github.Une-education/mcpscope-eu",
+  "description": "European MCP Observatory and active JSON-RPC 2.0 validator for latency and sovereignty.",
   "version": "1.0.0",
   "remotes": [
     {
-      "transport_type": "streamable-http",
+      "type": "streamable-http",
       "url": "https://mcpscope.eu/mcp.php"
     }
   ]
